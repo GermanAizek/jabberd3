@@ -35,9 +35,9 @@ addons:
       - check
   coverity_scan:
     project:
-      name: "jabberd2/jabberd2"
+      name: "GermanAizek/jabberd3"
       description: "Build submitted via Travis CI"
-    notification_email: tomek@xiaoka.com
+    notification_email: GermanAizek@yandex.ru
     build_command_prepend: "./configure --enable-ssl --enable-mysql --enable-pgsql --enable-sqlite --enable-db --enable-ldap --enable-pam --enable-pipe --enable-anon --enable-fs --without-subst"
     build_command: "make -j 4"
     branch_pattern: coverity_scan

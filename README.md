@@ -1,12 +1,12 @@
-# jabberd2
-Jabber Open Source Server (2.x)
+# jabberd3
+Jabber Open Source Server (3.x)
 
-[![Build Status](https://travis-ci.org/jabberd2/jabberd2.svg?branch=master)](https://travis-ci.org/jabberd2/jabberd2)
+[![Build Status](https://travis-ci.org/jabberd3/jabberd3.svg?branch=master)](https://travis-ci.org/jabberd3/jabberd3)
 [![Coverity Scan Build Status](https://scan.coverity.com/projects/8550/badge.svg)](https://scan.coverity.com/projects/jabberd)
 [![Join the chat at Gitter](https://badges.gitter.im/jabberd2/jabberd2.svg)](https://gitter.im/jabberd2/jabberd2?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Flattr this](https://button.flattr.com/flattr-badge-large.png)](https://flattr.com/submit/auto?fid=8n22qr&url=https%3A%2F%2Fgithub.com%2Fjabberd2%2Fjabberd2)
 
-Thanks for downloading jabberd2. Below are some basic instructions to
+Thanks for downloading jabberd3. Below are some basic instructions to
 get you started. Complete documentation is available at http://jabberd2.org/
 
 -- the jabberd team
@@ -45,11 +45,18 @@ get you started. Complete documentation is available at http://jabberd2.org/
      http://github.com/nodejs/http-parser
 
 
-## Build:
+## Build on Linux:
 
     % ./configure
     % make
     % make install
+    
+## Build on Windows:
+
+    % cd win32
+    % jabberd2.sln
+    % Choose build mode Debug/Release
+    % Build solution
 
 ### Options to ./configure:
 

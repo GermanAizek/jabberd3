@@ -1,4 +1,4 @@
-#define SVN_REVISION    $WCREV$
-#define SVN_VERSION     "2.2svn$WCREV$"
-#define SVN_FILEVERSION 2,2,0,$WCREV$
+#define SVN_REVISION    "3.0a"
+#define SVN_VERSION     "3.0a"
+#define SVN_FILEVERSION 3,0
 #define SVN_URL         "$WCURL$"

@@ -6,6 +6,7 @@
 *.so
 *~
 *.swp
+*.bak
 jabberd2.pro.*
 Makefile
 Makefile.in

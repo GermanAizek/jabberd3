@@ -73,7 +73,7 @@ extern "C" {
 JABBERD2_API int         j_inet_pton(const char *src, struct sockaddr_storage *dst);
 JABBERD2_API const char *j_inet_ntop(struct sockaddr_storage* src, char* dst, size_t size);
 JABBERD2_API int         j_inet_getport(struct sockaddr_storage *sa);
-JABBERD2_API int	     j_inet_setport(struct sockaddr_storage *sa, uint16_t port);
+JABBERD2_API int	     j_inet_setport(struct sockaddr_storage *sa, size_t port);
 JABBERD2_API socklen_t   j_inet_addrlen(struct sockaddr_storage *sa);
 
 #ifdef __cplusplus

@@ -170,7 +170,7 @@ int j_inet_getport(struct sockaddr_storage *sa)
  * @param port the port number that should be set (in host byte order)
  * @return 1 on success, 0 if address family is not supported
  */
-int j_inet_setport(struct sockaddr_storage *sa, in_port_t port)
+int j_inet_setport(struct sockaddr_storage *sa, size_t port)
 {
     struct sockaddr_in *sin;
     struct sockaddr_in6 *sin6;

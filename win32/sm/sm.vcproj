@@ -287,32 +287,6 @@
 					/>
 				</FileConfiguration>
 			</File>
-			<File
-				RelativePath="$(SolutionDir)..\etc\sm.xml.dist.in"
-				>
-				<FileConfiguration
-					Name="Debug|Win32"
-					>
-					<Tool
-						Name="VCCustomBuildTool"
-						Description="Generating configuration: $(TargetDir)$(TargetName).xml"
-						CommandLine="perl ../setup/make-config.pl $(InputPath) &gt; $(TargetDir)$(TargetName).xml&#x0D;&#x0A;"
-						AdditionalDependencies="../setup/make-config.pl"
-						Outputs="$(TargetDir)$(TargetName).xml"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32"
-					>
-					<Tool
-						Name="VCCustomBuildTool"
-						Description="Generating configuration: $(TargetDir)$(TargetName).xml"
-						CommandLine="perl ../setup/make-config.pl $(InputPath) &gt; $(TargetDir)$(TargetName).xml&#x0D;&#x0A;"
-						AdditionalDependencies="../setup/make-config.pl"
-						Outputs="$(TargetDir)$(TargetName).xml"
-					/>
-				</FileConfiguration>
-			</File>
 		</Filter>
 	</Files>
 	<Globals>

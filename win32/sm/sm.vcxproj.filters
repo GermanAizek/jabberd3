@@ -15,68 +15,60 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\sm\aci.c">
+    <ClCompile Include="$(SolutionDir)..\sm\aci.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sm\dispatch.c">
+    <ClCompile Include="$(SolutionDir)..\sm\dispatch.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sm\feature.c">
+    <ClCompile Include="$(SolutionDir)..\sm\feature.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sm\main.c">
+    <ClCompile Include="$(SolutionDir)..\sm\main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sm\mm.c">
+    <ClCompile Include="$(SolutionDir)..\sm\mm.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\storage\object.c">
+    <ClCompile Include="$(SolutionDir)..\storage\object.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sm\pkt.c">
+    <ClCompile Include="$(SolutionDir)..\sm\pkt.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sm\pres.c">
+    <ClCompile Include="$(SolutionDir)..\sm\pres.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sm\sess.c">
+    <ClCompile Include="$(SolutionDir)..\sm\sess.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sm\sm.c">
+    <ClCompile Include="$(SolutionDir)..\sm\sm.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\storage\storage.c">
+    <ClCompile Include="$(SolutionDir)..\storage\storage.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sm\user.c">
+    <ClCompile Include="$(SolutionDir)..\sm\user.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\include\ac-stdint.h">
+    <ClInclude Include="$(SolutionDir)..\sm\sm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\config.h">
+    <ClInclude Include="$(SolutionDir)include\ac-stdint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\sm\sm.h">
+    <ClInclude Include="$(SolutionDir)include\config.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\win32_port.h">
+    <ClInclude Include="$(SolutionDir)include\win32_port.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="..\jabberd2.rc">
+    <ResourceCompile Include="$(SolutionDir)jabberd2.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <CustomBuild Include="..\setup\server.pem">
-      <Filter>Resource Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\..\etc\sm.xml.dist.in">
-      <Filter>Resource Files</Filter>
-    </CustomBuild>
   </ItemGroup>
 </Project>

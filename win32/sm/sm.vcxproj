@@ -87,7 +87,7 @@
     <Link>
       <AdditionalDependencies>jabberd2.lib;libeay32.lib;libidn.lib;ws2_32.lib;libcrypto.lib;libssl.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>../bin/$(ProjectName).exe</OutputFile>
-      <AdditionalLibraryDirectories>C:\GIT\jabberd3\thirdparty\openssl\lib;../lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <SubSystem>Console</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -96,6 +96,10 @@
       <ImportLibrary>../lib/$(ProjectName).lib</ImportLibrary>
       <TargetMachine>MachineX86</TargetMachine>
     </Link>
+    <PostBuildEvent>
+      <Command>perl $(SolutionDir)setup/make-config.pl %(FullPath) &amp;gt; $(TargetDir)$(TargetName).xml
+copy /y %(FullPath) $(TargetDir)%(Filename)%(Extension)</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="$(SolutionDir)..\sm\aci.c" />
@@ -119,30 +123,6 @@
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="$(SolutionDir)jabberd2.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <CustomBuild Include="$(SolutionDir)..\etc\sm.xml.dist.in">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating configuration: $(TargetDir)$(TargetName).xml</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">perl ../setup/make-config.pl %(FullPath) &gt; $(TargetDir)$(TargetName).xml
-</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../setup/make-config.pl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(TargetDir)$(TargetName).xml;%(Outputs)</Outputs>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating configuration: $(TargetDir)$(TargetName).xml</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">perl ../setup/make-config.pl %(FullPath) &gt; $(TargetDir)$(TargetName).xml
-</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../setup/make-config.pl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(TargetDir)$(TargetName).xml;%(Outputs)</Outputs>
-    </CustomBuild>
-    <CustomBuild Include="..\setup\server.pem">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating default certificate: $(TargetDir)%(Filename)%(Extension)</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">copy /y %(FullPath) $(TargetDir)%(Filename)%(Extension)
-</Command>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(TargetDir)%(Filename)%(Extension);%(Outputs)</Outputs>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating default certificate: $(TargetDir)%(Filename)%(Extension)</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">copy /y %(FullPath) $(TargetDir)%(Filename)%(Extension)
-</Command>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(TargetDir)%(Filename)%(Extension);%(Outputs)</Outputs>
-    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\jabberd2\jabberd2.vcxproj">

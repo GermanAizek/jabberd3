@@ -532,62 +532,6 @@
 					RelativePath="..\include\version.h"
 					>
 				</File>
-				<File
-					RelativePath="..\include\version.h.in"
-					>
-					<FileConfiguration
-						Name="Debug|Win32"
-						>
-						<Tool
-							Name="VCCustomBuildTool"
-							Description="Updating $(InputDir)$(InputName)"
-							CommandLine="subwcrev ..\.. $(InputPath) $(InputDir)$(InputName)&#x0D;&#x0A;"
-							AdditionalDependencies="$(InputDir)..\.svn\entries"
-							Outputs="$(InputDir)$(InputName)"
-						/>
-					</FileConfiguration>
-					<FileConfiguration
-						Name="Release|Win32"
-						>
-						<Tool
-							Name="VCCustomBuildTool"
-							Description="Updating $(InputDir)$(InputName)"
-							CommandLine="subwcrev ..\.. $(InputPath) $(InputDir)$(InputName)&#x0D;&#x0A;"
-							AdditionalDependencies="$(InputDir)..\.svn\entries"
-							Outputs="$(InputDir)$(InputName)"
-						/>
-					</FileConfiguration>
-				</File>
-				<File
-					RelativePath="..\include\version.wxi"
-					>
-				</File>
-				<File
-					RelativePath="..\include\version.wxi.in"
-					>
-					<FileConfiguration
-						Name="Debug|Win32"
-						>
-						<Tool
-							Name="VCCustomBuildTool"
-							Description="Updating $(InputDir)$(InputName)"
-							CommandLine="subwcrev ..\.. $(InputPath) $(InputDir)$(InputName)&#x0D;&#x0A;"
-							AdditionalDependencies="$(InputDir)..\.svn\entries"
-							Outputs="$(InputDir)$(InputName)"
-						/>
-					</FileConfiguration>
-					<FileConfiguration
-						Name="Release|Win32"
-						>
-						<Tool
-							Name="VCCustomBuildTool"
-							Description="Updating $(InputDir)$(InputName)"
-							CommandLine="subwcrev ..\.. $(InputPath) $(InputDir)$(InputName)&#x0D;&#x0A;"
-							AdditionalDependencies="$(InputDir)..\.svn\entries"
-							Outputs="$(InputDir)$(InputName)"
-						/>
-					</FileConfiguration>
-				</File>
 			</Filter>
 		</Filter>
 		<Filter

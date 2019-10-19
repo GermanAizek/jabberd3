@@ -173,33 +173,6 @@
     <ClInclude Include="..\include\win32_port.h" />
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\include\version.h.in">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Updating %(RootDir)%(Directory)%(Filename)</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">subwcrev ..\.. %(FullPath) %(RootDir)%(Directory)%(Filename)
-</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(RootDir)%(Directory)..\.svn\entries;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(RootDir)%(Directory)%(Filename);%(Outputs)</Outputs>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Updating %(RootDir)%(Directory)%(Filename)</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">subwcrev ..\.. %(FullPath) %(RootDir)%(Directory)%(Filename)
-</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(RootDir)%(Directory)..\.svn\entries;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(RootDir)%(Directory)%(Filename);%(Outputs)</Outputs>
-    </CustomBuild>
-    <None Include="..\include\version.wxi" />
-    <CustomBuild Include="..\include\version.wxi.in">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Updating %(RootDir)%(Directory)%(Filename)</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">subwcrev ..\.. %(FullPath) %(RootDir)%(Directory)%(Filename)
-</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(RootDir)%(Directory)..\.svn\entries;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(RootDir)%(Directory)%(Filename);%(Outputs)</Outputs>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Updating %(RootDir)%(Directory)%(Filename)</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">subwcrev ..\.. %(FullPath) %(RootDir)%(Directory)%(Filename)
-</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(RootDir)%(Directory)..\.svn\entries;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(RootDir)%(Directory)%(Filename);%(Outputs)</Outputs>
-    </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
     <ResourceCompile Include="..\jabberd2.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

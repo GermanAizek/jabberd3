@@ -77,7 +77,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <Optimization>MaxSpeed</Optimization>
-      <AdditionalIncludeDirectories>C:\GIT\jabberd3\thirdparty\openssl\include;.;../include;../..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty/openssl/include;$(SolutionDir)thirdparty/libexpat/include;$(SolutionDir)thirdparty/libidn/include;$(SolutionDir)thirdparty/zlib/include;$(SolutionDir)include;$(SolutionDir)..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;HAVE_CONFIG_H;USE_LIBSUBST;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <PrecompiledHeader />
@@ -98,30 +98,30 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\sm\aci.c" />
-    <ClCompile Include="..\..\sm\dispatch.c" />
-    <ClCompile Include="..\..\sm\feature.c" />
-    <ClCompile Include="..\..\sm\main.c" />
-    <ClCompile Include="..\..\sm\mm.c" />
-    <ClCompile Include="..\..\sm\object.c" />
-    <ClCompile Include="..\..\sm\pkt.c" />
-    <ClCompile Include="..\..\sm\pres.c" />
-    <ClCompile Include="..\..\sm\sess.c" />
-    <ClCompile Include="..\..\sm\sm.c" />
-    <ClCompile Include="..\..\sm\storage.c" />
-    <ClCompile Include="..\..\sm\user.c" />
+    <ClCompile Include="$(SolutionDir)..\sm\aci.c" />
+    <ClCompile Include="$(SolutionDir)..\sm\dispatch.c" />
+    <ClCompile Include="$(SolutionDir)..\sm\feature.c" />
+    <ClCompile Include="$(SolutionDir)..\sm\main.c" />
+    <ClCompile Include="$(SolutionDir)..\sm\mm.c" />
+    <ClCompile Include="$(SolutionDir)..\storage\object.c" />
+    <ClCompile Include="$(SolutionDir)..\sm\pkt.c" />
+    <ClCompile Include="$(SolutionDir)..\sm\pres.c" />
+    <ClCompile Include="$(SolutionDir)..\sm\sess.c" />
+    <ClCompile Include="$(SolutionDir)..\sm\sm.c" />
+    <ClCompile Include="$(SolutionDir)..\storage\storage.c" />
+    <ClCompile Include="$(SolutionDir)..\sm\user.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\sm\sm.h" />
-    <ClInclude Include="..\include\ac-stdint.h" />
-    <ClInclude Include="..\include\config.h" />
-    <ClInclude Include="..\include\win32_port.h" />
+    <ClInclude Include="$(SolutionDir)..\sm\sm.h" />
+    <ClInclude Include="$(SolutionDir)include\ac-stdint.h" />
+    <ClInclude Include="$(SolutionDir)include\config.h" />
+    <ClInclude Include="$(SolutionDir)include\win32_port.h" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="..\jabberd2.rc" />
+    <ResourceCompile Include="$(SolutionDir)jabberd2.rc" />
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\..\etc\sm.xml.dist.in">
+    <CustomBuild Include="$(SolutionDir)..\etc\sm.xml.dist.in">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating configuration: $(TargetDir)$(TargetName).xml</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">perl ../setup/make-config.pl %(FullPath) &gt; $(TargetDir)$(TargetName).xml
 </Command>

@@ -30,7 +30,7 @@
     <ClCompile Include="..\..\sm\mm.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sm\object.c">
+    <ClCompile Include="..\..\storage\object.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\sm\pkt.c">
@@ -45,7 +45,7 @@
     <ClCompile Include="..\..\sm\sm.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sm\storage.c">
+    <ClCompile Include="..\..\storage\storage.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\sm\user.c">

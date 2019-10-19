@@ -184,51 +184,51 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath="..\..\sm\aci.c"
+				RelativePath="$(SolutionDir)..\sm\aci.c"
 				>
 			</File>
 			<File
-				RelativePath="..\..\sm\dispatch.c"
+				RelativePath="$(SolutionDir)..\sm\dispatch.c"
 				>
 			</File>
 			<File
-				RelativePath="..\..\sm\feature.c"
+				RelativePath="$(SolutionDir)..\sm\feature.c"
 				>
 			</File>
 			<File
-				RelativePath="..\..\sm\main.c"
+				RelativePath="$(SolutionDir)..\sm\main.c"
 				>
 			</File>
 			<File
-				RelativePath="..\..\sm\mm.c"
+				RelativePath="$(SolutionDir)..\sm\mm.c"
 				>
 			</File>
 			<File
-				RelativePath="..\..\sm\object.c"
+				RelativePath="$(SolutionDir)..\sm\object.c"
 				>
 			</File>
 			<File
-				RelativePath="..\..\sm\pkt.c"
+				RelativePath="$(SolutionDir)..\sm\pkt.c"
 				>
 			</File>
 			<File
-				RelativePath="..\..\sm\pres.c"
+				RelativePath="$(SolutionDir)..\sm\pres.c"
 				>
 			</File>
 			<File
-				RelativePath="..\..\sm\sess.c"
+				RelativePath="$(SolutionDir)..\sm\sess.c"
 				>
 			</File>
 			<File
-				RelativePath="..\..\sm\sm.c"
+				RelativePath="$(SolutionDir)..\sm\sm.c"
 				>
 			</File>
 			<File
-				RelativePath="..\..\sm\storage.c"
+				RelativePath="$(SolutionDir)..\sm\storage.c"
 				>
 			</File>
 			<File
-				RelativePath="..\..\sm\user.c"
+				RelativePath="$(SolutionDir)..\sm\user.c"
 				>
 			</File>
 		</Filter>
@@ -238,19 +238,19 @@
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
 			<File
-				RelativePath="..\include\ac-stdint.h"
+				RelativePath="$(SolutionDir)include\ac-stdint.h"
 				>
 			</File>
 			<File
-				RelativePath="..\include\config.h"
+				RelativePath="$(SolutionDir)include\config.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\sm\sm.h"
+				RelativePath="$(SolutionDir)..\sm\sm.h"
 				>
 			</File>
 			<File
-				RelativePath="..\include\win32_port.h"
+				RelativePath="$(SolutionDir)include\win32_port.h"
 				>
 			</File>
 		</Filter>
@@ -260,11 +260,11 @@
 			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}"
 			>
 			<File
-				RelativePath="..\jabberd2.rc"
+				RelativePath="$(SolutionDir)jabberd2.rc"
 				>
 			</File>
 			<File
-				RelativePath="..\setup\server.pem"
+				RelativePath="$(SolutionDir)setup\server.pem"
 				>
 				<FileConfiguration
 					Name="Debug|Win32"
@@ -288,7 +288,7 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="..\..\etc\sm.xml.dist.in"
+				RelativePath="$(SolutionDir)..\etc\sm.xml.dist.in"
 				>
 				<FileConfiguration
 					Name="Debug|Win32"

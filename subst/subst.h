@@ -44,12 +44,16 @@
 
 #if !defined(HAVE_SNPRINTF) || defined(HAVE_BROKEN_SNPRINTF)
   JABBERD2_API int ap_snprintf(char *, size_t, const char *, ...);
+#ifdef UNIX || (WIN32 || _MSC_VER < 1700)
 # define snprintf ap_snprintf
+#endif
 #endif
 
 #if !defined(HAVE_VSNPRINTF) || defined(HAVE_BROKEN_VSNPRINTF)
   JABBERD2_API int ap_vsnprintf(char *, size_t, const char *, va_list ap);
+#ifdef UNIX || (WIN32 || _MSC_VER < 1700)
 # define vsnprintf ap_vsnprintf
+#endif
 #endif
 
 #ifndef HAVE_GETOPT

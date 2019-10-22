@@ -9,7 +9,9 @@
 
 #if !defined(HAVE_SNPRINTF) || defined(HAVE_BROKEN_SNPRINTF)
 int ap_snprintf(char *, size_t, const char *, ...);
+#ifdef UNIX || (WIN32 || _MSC_VER < 1700)
 # define snprintf ap_snprintf
+#endif
 #endif
 
 /* jabberd2 Windows DLL */

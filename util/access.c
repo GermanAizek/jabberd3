@@ -21,7 +21,11 @@
 /* this implements allow/deny filters for IP address */
 
 #include "util.h"
+#ifdef UNIX
 #include <arpa/inet.h>
+#else
+#include <winsock2.h>
+#endif
 
 access_t access_new(int order)
 {

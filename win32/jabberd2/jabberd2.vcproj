@@ -179,91 +179,91 @@
 				Name="util"
 				>
 				<File
-					RelativePath="..\..\util\access.c"
+					RelativePath="$(SolutionDir)..\util\access.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\util\base64.c"
+					RelativePath="$(SolutionDir)..\util\base64.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\util\config.c"
+					RelativePath="$(SolutionDir)..\util\config.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\util\datetime.c"
+					RelativePath="$(SolutionDir)..\util\datetime.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\util\hex.c"
+					RelativePath="$(SolutionDir)..\util\hex.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\util\inaddr.c"
+					RelativePath="$(SolutionDir)..\util\inaddr.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\util\jid.c"
+					RelativePath="$(SolutionDir)..\util\jid.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\util\jqueue.c"
+					RelativePath="$(SolutionDir)..\util\jqueue.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\util\jsignal.c"
+					RelativePath="$(SolutionDir)..\util\jsignal.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\util\log.c"
+					RelativePath="$(SolutionDir)..\util\log.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\util\md5.c"
+					RelativePath="$(SolutionDir)..\util\md5.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\util\misc.c"
+					RelativePath="$(SolutionDir)..\util\misc.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\util\nad.c"
+					RelativePath="$(SolutionDir)..\util\nad.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\util\pool.c"
+					RelativePath="$(SolutionDir)..\util\pool.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\util\pqueue.c"
+					RelativePath="$(SolutionDir)..\util\pqueue.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\util\rate.c"
+					RelativePath="$(SolutionDir)..\util\rate.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\util\serial.c"
+					RelativePath="$(SolutionDir)..\util\serial.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\util\stanza.c"
+					RelativePath="$(SolutionDir)..\util\stanza.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\util\str.c"
+					RelativePath="$(SolutionDir)..\util\str.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\util\xconfig.c"
+					RelativePath="$(SolutionDir)..\util\xconfig.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\util\xdata.c"
+					RelativePath="$(SolutionDir)..\util\xdata.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\util\xhash.c"
+					RelativePath="$(SolutionDir)..\util\xhash.c"
 					>
 				</File>
 			</Filter>
@@ -271,15 +271,15 @@
 				Name="mio"
 				>
 				<File
-					RelativePath="..\..\mio\mio.c"
+					RelativePath="$(SolutionDir)..\mio\mio.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\mio\mio_select.c"
+					RelativePath="$(SolutionDir)..\mio\mio_select.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\mio\mio_wsasync.c"
+					RelativePath="$(SolutionDir)..\mio\mio_wsasync.c"
 					>
 				</File>
 			</Filter>
@@ -287,43 +287,43 @@
 				Name="subst"
 				>
 				<File
-					RelativePath="..\..\subst\dirent.c"
+					RelativePath="$(SolutionDir)..\subst\dirent.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\subst\getopt.c"
+					RelativePath="$(SolutionDir)..\subst\getopt.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\subst\gettimeofday.c"
+					RelativePath="$(SolutionDir)..\subst\gettimeofday.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\subst\inet_aton.c"
+					RelativePath="$(SolutionDir)..\subst\inet_aton.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\subst\inet_ntop.c"
+					RelativePath="$(SolutionDir)..\subst\inet_ntop.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\subst\inet_pton.c"
+					RelativePath="$(SolutionDir)..\subst\inet_pton.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\subst\snprintf.c"
+					RelativePath="$(SolutionDir)..\subst\snprintf.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\subst\strndup.c"
+					RelativePath="$(SolutionDir)..\subst\strndup.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\subst\syslog.c"
+					RelativePath="$(SolutionDir)..\subst\syslog.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\subst\timegm.c"
+					RelativePath="$(SolutionDir)..\subst\timegm.c"
 					>
 				</File>
 			</Filter>
@@ -331,47 +331,47 @@
 				Name="sx"
 				>
 				<File
-					RelativePath="..\..\sx\callback.c"
+					RelativePath="$(SolutionDir)..\sx\callback.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\sx\chain.c"
+					RelativePath="$(SolutionDir)..\sx\chain.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\sx\client.c"
+					RelativePath="$(SolutionDir)..\sx\client.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\sx\compress.c"
+					RelativePath="$(SolutionDir)..\sx\compress.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\sx\env.c"
+					RelativePath="$(SolutionDir)..\sx\env.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\sx\error.c"
+					RelativePath="$(SolutionDir)..\sx\error.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\sx\io.c"
+					RelativePath="$(SolutionDir)..\sx\io.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\sx\sasl_gsasl.c"
+					RelativePath="$(SolutionDir)..\sx\sasl_gsasl.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\sx\server.c"
+					RelativePath="$(SolutionDir)..\sx\server.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\sx\ssl.c"
+					RelativePath="$(SolutionDir)..\sx\ssl.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\sx\sx.c"
+					RelativePath="$(SolutionDir)..\sx\sx.c"
 					>
 				</File>
 			</Filter>
@@ -382,86 +382,86 @@
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
 			<File
-				RelativePath="..\include\ac-stdint.h"
+				RelativePath="$(SolutionDir)include\ac-stdint.h"
 				>
 			</File>
 			<File
-				RelativePath="..\include\config.h"
+				RelativePath="$(SolutionDir)include\config.h"
 				>
 			</File>
 			<File
-				RelativePath="..\include\win32_port.h"
+				RelativePath="$(SolutionDir)include\win32_port.h"
 				>
 			</File>
 			<Filter
 				Name="util"
 				>
 				<File
-					RelativePath="..\..\util\base64.h"
+					RelativePath="$(SolutionDir)..\util\base64.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\util\datetime.h"
+					RelativePath="$(SolutionDir)..\util\datetime.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\util\inaddr.h"
+					RelativePath="$(SolutionDir)..\util\inaddr.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\util\jid.h"
+					RelativePath="$(SolutionDir)..\util\jid.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\util\log.h"
+					RelativePath="$(SolutionDir)..\util\log.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\util\md5.h"
+					RelativePath="$(SolutionDir)..\util\md5.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\util\misc.h"
+					RelativePath="$(SolutionDir)..\util\misc.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\util\nad.h"
+					RelativePath="$(SolutionDir)..\util\nad.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\util\pool.h"
+					RelativePath="$(SolutionDir)..\util\pool.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\util\pqueue.h"
+					RelativePath="$(SolutionDir)..\util\pqueue.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\util\sha1.h"
+					RelativePath="$(SolutionDir)..\util\sha1.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\util\uri.h"
+					RelativePath="$(SolutionDir)..\util\uri.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\util\util.h"
+					RelativePath="$(SolutionDir)..\util\util.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\util\util_compat.h"
+					RelativePath="$(SolutionDir)..\util\util_compat.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\util\xconfig.h"
+					RelativePath="$(SolutionDir)..\util\xconfig.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\util\xdata.h"
+					RelativePath="$(SolutionDir)..\util\xdata.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\util\xhash.h"
+					RelativePath="$(SolutionDir)..\util\xhash.h"
 					>
 				</File>
 			</Filter>
@@ -469,19 +469,19 @@
 				Name="mio"
 				>
 				<File
-					RelativePath="..\..\mio\mio.h"
+					RelativePath="$(SolutionDir)..\mio\mio.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\mio\mio_impl.h"
+					RelativePath="$(SolutionDir)..\mio\mio_impl.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\mio\mio_select.h"
+					RelativePath="$(SolutionDir)..\mio\mio_select.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\mio\mio_wsasync.h"
+					RelativePath="$(SolutionDir)..\mio\mio_wsasync.h"
 					>
 				</File>
 			</Filter>
@@ -489,23 +489,23 @@
 				Name="subst"
 				>
 				<File
-					RelativePath="..\..\subst\dirent.h"
+					RelativePath="$(SolutionDir)..\subst\dirent.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\subst\getopt.h"
+					RelativePath="$(SolutionDir)..\subst\getopt.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\subst\ip6_misc.h"
+					RelativePath="$(SolutionDir)..\subst\ip6_misc.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\subst\subst.h"
+					RelativePath="$(SolutionDir)..\subst\subst.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\subst\syslog.h"
+					RelativePath="$(SolutionDir)..\subst\syslog.h"
 					>
 				</File>
 			</Filter>
@@ -513,15 +513,15 @@
 				Name="sx"
 				>
 				<File
-					RelativePath="..\..\sx\sasl.h"
+					RelativePath="$(SolutionDir)..\sx\sasl.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\sx\ssl.h"
+					RelativePath="$(SolutionDir)..\sx\ssl.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\sx\sx.h"
+					RelativePath="$(SolutionDir)..\sx\sx.h"
 					>
 				</File>
 			</Filter>
@@ -529,7 +529,7 @@
 				Name="version"
 				>
 				<File
-					RelativePath="..\include\version.h"
+					RelativePath="$(SolutionDir)include\version.h"
 					>
 				</File>
 			</Filter>
@@ -538,7 +538,7 @@
 			Name="Resource Files"
 			>
 			<File
-				RelativePath="..\jabberd2.rc"
+				RelativePath="$(SolutionDir)jabberd2.rc"
 				>
 			</File>
 		</Filter>

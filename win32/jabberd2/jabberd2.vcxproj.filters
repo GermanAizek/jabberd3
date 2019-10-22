@@ -41,262 +41,247 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\util\access.c">
+    <ClCompile Include="$(SolutionDir)..\util\access.c">
       <Filter>Source Files\util</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\util\base64.c">
+    <ClCompile Include="$(SolutionDir)..\util\base64.c">
       <Filter>Source Files\util</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\util\config.c">
+    <ClCompile Include="$(SolutionDir)..\util\config.c">
       <Filter>Source Files\util</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\util\datetime.c">
+    <ClCompile Include="$(SolutionDir)..\util\datetime.c">
       <Filter>Source Files\util</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\util\hex.c">
+    <ClCompile Include="$(SolutionDir)..\util\hex.c">
       <Filter>Source Files\util</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\util\inaddr.c">
+    <ClCompile Include="$(SolutionDir)..\util\inaddr.c">
       <Filter>Source Files\util</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\util\jid.c">
+    <ClCompile Include="$(SolutionDir)..\util\jid.c">
       <Filter>Source Files\util</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\util\jqueue.c">
+    <ClCompile Include="$(SolutionDir)..\util\jqueue.c">
       <Filter>Source Files\util</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\util\jsignal.c">
+    <ClCompile Include="$(SolutionDir)..\util\jsignal.c">
       <Filter>Source Files\util</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\util\log.c">
+    <ClCompile Include="$(SolutionDir)..\util\log.c">
       <Filter>Source Files\util</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\util\md5.c">
+    <ClCompile Include="$(SolutionDir)..\util\md5.c">
       <Filter>Source Files\util</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\util\misc.c">
+    <ClCompile Include="$(SolutionDir)..\util\misc.c">
       <Filter>Source Files\util</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\util\nad.c">
+    <ClCompile Include="$(SolutionDir)..\util\nad.c">
       <Filter>Source Files\util</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\util\pool.c">
+    <ClCompile Include="$(SolutionDir)..\util\pool.c">
       <Filter>Source Files\util</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\util\pqueue.c">
+    <ClCompile Include="$(SolutionDir)..\util\pqueue.c">
       <Filter>Source Files\util</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\util\rate.c">
+    <ClCompile Include="$(SolutionDir)..\util\rate.c">
       <Filter>Source Files\util</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\util\serial.c">
+    <ClCompile Include="$(SolutionDir)..\util\serial.c">
       <Filter>Source Files\util</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\util\stanza.c">
+    <ClCompile Include="$(SolutionDir)..\util\stanza.c">
       <Filter>Source Files\util</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\util\str.c">
+    <ClCompile Include="$(SolutionDir)..\util\str.c">
       <Filter>Source Files\util</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\util\xconfig.c">
+    <ClCompile Include="$(SolutionDir)..\util\xconfig.c">
       <Filter>Source Files\util</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\util\xdata.c">
+    <ClCompile Include="$(SolutionDir)..\util\xdata.c">
       <Filter>Source Files\util</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\util\xhash.c">
+    <ClCompile Include="$(SolutionDir)..\util\xhash.c">
       <Filter>Source Files\util</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\mio\mio.c">
+    <ClCompile Include="$(SolutionDir)..\mio\mio.c">
       <Filter>Source Files\mio</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\mio\mio_select.c">
+    <ClCompile Include="$(SolutionDir)..\mio\mio_select.c">
       <Filter>Source Files\mio</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\mio\mio_wsasync.c">
+    <ClCompile Include="$(SolutionDir)..\mio\mio_wsasync.c">
       <Filter>Source Files\mio</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subst\dirent.c">
+    <ClCompile Include="$(SolutionDir)..\subst\dirent.c">
       <Filter>Source Files\subst</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subst\getopt.c">
+    <ClCompile Include="$(SolutionDir)..\subst\getopt.c">
       <Filter>Source Files\subst</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subst\gettimeofday.c">
+    <ClCompile Include="$(SolutionDir)..\subst\gettimeofday.c">
       <Filter>Source Files\subst</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subst\inet_aton.c">
+    <ClCompile Include="$(SolutionDir)..\subst\inet_aton.c">
       <Filter>Source Files\subst</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subst\inet_ntop.c">
+    <ClCompile Include="$(SolutionDir)..\subst\inet_ntop.c">
       <Filter>Source Files\subst</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subst\inet_pton.c">
+    <ClCompile Include="$(SolutionDir)..\subst\inet_pton.c">
       <Filter>Source Files\subst</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subst\snprintf.c">
+    <ClCompile Include="$(SolutionDir)..\subst\snprintf.c">
       <Filter>Source Files\subst</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subst\strndup.c">
+    <ClCompile Include="$(SolutionDir)..\subst\strndup.c">
       <Filter>Source Files\subst</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subst\syslog.c">
+    <ClCompile Include="$(SolutionDir)..\subst\syslog.c">
       <Filter>Source Files\subst</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\subst\timegm.c">
+    <ClCompile Include="$(SolutionDir)..\subst\timegm.c">
       <Filter>Source Files\subst</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sx\callback.c">
+    <ClCompile Include="$(SolutionDir)..\sx\callback.c">
       <Filter>Source Files\sx</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sx\chain.c">
+    <ClCompile Include="$(SolutionDir)..\sx\chain.c">
       <Filter>Source Files\sx</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sx\client.c">
+    <ClCompile Include="$(SolutionDir)..\sx\client.c">
       <Filter>Source Files\sx</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sx\compress.c">
+    <ClCompile Include="$(SolutionDir)..\sx\compress.c">
       <Filter>Source Files\sx</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sx\env.c">
+    <ClCompile Include="$(SolutionDir)..\sx\env.c">
       <Filter>Source Files\sx</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sx\error.c">
+    <ClCompile Include="$(SolutionDir)..\sx\error.c">
       <Filter>Source Files\sx</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sx\io.c">
+    <ClCompile Include="$(SolutionDir)..\sx\io.c">
       <Filter>Source Files\sx</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sx\sasl_gsasl.c">
+    <ClCompile Include="$(SolutionDir)..\sx\sasl_gsasl.c">
       <Filter>Source Files\sx</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sx\server.c">
+    <ClCompile Include="$(SolutionDir)..\sx\server.c">
       <Filter>Source Files\sx</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sx\ssl.c">
+    <ClCompile Include="$(SolutionDir)..\sx\ssl.c">
       <Filter>Source Files\sx</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sx\sx.c">
+    <ClCompile Include="$(SolutionDir)..\sx\sx.c">
       <Filter>Source Files\sx</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\include\ac-stdint.h">
+    <ClInclude Include="$(SolutionDir)include\ac-stdint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\config.h">
+    <ClInclude Include="$(SolutionDir)include\config.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\win32_port.h">
+    <ClInclude Include="$(SolutionDir)include\win32_port.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\util\base64.h">
+    <ClInclude Include="$(SolutionDir)..\util\base64.h">
       <Filter>Header Files\util</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\util\datetime.h">
+    <ClInclude Include="$(SolutionDir)..\util\datetime.h">
       <Filter>Header Files\util</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\util\inaddr.h">
+    <ClInclude Include="$(SolutionDir)..\util\inaddr.h">
       <Filter>Header Files\util</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\util\jid.h">
+    <ClInclude Include="$(SolutionDir)..\util\jid.h">
       <Filter>Header Files\util</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\util\log.h">
+    <ClInclude Include="$(SolutionDir)..\util\log.h">
       <Filter>Header Files\util</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\util\md5.h">
+    <ClInclude Include="$(SolutionDir)..\util\md5.h">
       <Filter>Header Files\util</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\util\misc.h">
+    <ClInclude Include="$(SolutionDir)..\util\misc.h">
       <Filter>Header Files\util</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\util\nad.h">
+    <ClInclude Include="$(SolutionDir)..\util\nad.h">
       <Filter>Header Files\util</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\util\pool.h">
+    <ClInclude Include="$(SolutionDir)..\util\pool.h">
       <Filter>Header Files\util</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\util\pqueue.h">
+    <ClInclude Include="$(SolutionDir)..\util\pqueue.h">
       <Filter>Header Files\util</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\util\sha1.h">
+    <ClInclude Include="$(SolutionDir)..\util\sha1.h">
       <Filter>Header Files\util</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\util\uri.h">
+    <ClInclude Include="$(SolutionDir)..\util\uri.h">
       <Filter>Header Files\util</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\util\util.h">
+    <ClInclude Include="$(SolutionDir)..\util\util.h">
       <Filter>Header Files\util</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\util\util_compat.h">
+    <ClInclude Include="$(SolutionDir)..\util\util_compat.h">
       <Filter>Header Files\util</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\util\xconfig.h">
+    <ClInclude Include="$(SolutionDir)..\util\xconfig.h">
       <Filter>Header Files\util</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\util\xdata.h">
+    <ClInclude Include="$(SolutionDir)..\util\xdata.h">
       <Filter>Header Files\util</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\util\xhash.h">
+    <ClInclude Include="$(SolutionDir)..\util\xhash.h">
       <Filter>Header Files\util</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\mio\mio.h">
+    <ClInclude Include="$(SolutionDir)..\mio\mio.h">
       <Filter>Header Files\mio</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\mio\mio_impl.h">
+    <ClInclude Include="$(SolutionDir)..\mio\mio_impl.h">
       <Filter>Header Files\mio</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\mio\mio_select.h">
+    <ClInclude Include="$(SolutionDir)..\mio\mio_select.h">
       <Filter>Header Files\mio</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\mio\mio_wsasync.h">
+    <ClInclude Include="$(SolutionDir)..\mio\mio_wsasync.h">
       <Filter>Header Files\mio</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\subst\dirent.h">
+    <ClInclude Include="$(SolutionDir)..\subst\dirent.h">
       <Filter>Header Files\subst</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\subst\getopt.h">
+    <ClInclude Include="$(SolutionDir)..\subst\getopt.h">
       <Filter>Header Files\subst</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\subst\ip6_misc.h">
+    <ClInclude Include="$(SolutionDir)..\subst\ip6_misc.h">
       <Filter>Header Files\subst</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\subst\subst.h">
+    <ClInclude Include="$(SolutionDir)..\subst\subst.h">
       <Filter>Header Files\subst</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\subst\syslog.h">
+    <ClInclude Include="$(SolutionDir)..\subst\syslog.h">
       <Filter>Header Files\subst</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\sx\sasl.h">
+    <ClInclude Include="$(SolutionDir)..\sx\sasl.h">
       <Filter>Header Files\sx</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\sx\ssl.h">
+    <ClInclude Include="$(SolutionDir)..\sx\ssl.h">
       <Filter>Header Files\sx</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\sx\sx.h">
+    <ClInclude Include="$(SolutionDir)..\sx\sx.h">
       <Filter>Header Files\sx</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\version.h">
+    <ClInclude Include="$(SolutionDir)include\version.h">
       <Filter>Header Files\version</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\include\version.wxi">
-      <Filter>Header Files\version</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="..\jabberd2.rc">
-      <Filter>Resource Files</Filter>
-    </ResourceCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <CustomBuild Include="..\include\version.h.in">
-      <Filter>Header Files\version</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\include\version.wxi.in">
-      <Filter>Header Files\version</Filter>
-    </CustomBuild>
+    <ResourceCompile Include="..\jabberd2.rc" />
   </ItemGroup>
 </Project>

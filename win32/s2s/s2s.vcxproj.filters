@@ -57,7 +57,7 @@
     <CustomBuild Include="..\..\etc\s2s.xml.dist.in">
       <Filter>Resource Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\setup\server.pem">
+    <CustomBuild Include="$(SolutionDir)setup\server.pem">
       <Filter>Resource Files</Filter>
     </CustomBuild>
   </ItemGroup>

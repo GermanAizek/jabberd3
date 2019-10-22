@@ -266,7 +266,7 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="..\setup\server.pem"
+				RelativePath="$(SolutionDir)setup\server.pem"
 				>
 				<FileConfiguration
 					Name="Debug|Win32"

@@ -83,7 +83,7 @@
     <Link>
       <AdditionalDependencies>libidn.lib;libgsasl.lib;libeay32.lib;ssleay32.lib;dnsapi.lib;ws2_32.lib;libexpat.lib;zlib1.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>../bin/$(ProjectName).dll</OutputFile>
-      <AdditionalLibraryDirectories>($SolutionDir)thirdparty\zlib\lib;../lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>($SolutionDir)thirdparty\libidn\lib\x86;($SolutionDir)thirdparty\zlib\lib;../lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <DataExecutionPrevention />
       <ImportLibrary>../lib/$(TargetName).lib</ImportLibrary>
